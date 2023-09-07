@@ -1,14 +1,43 @@
 body {
+    background-image: url(https://pbs.twimg.com/media/Fw1Lm7lXwAYUG8w?format=jpg&name=large);
+    background-size: cover;
 }
 
 main#container {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 0px 0px 30px 10px #ffffff62;
+    padding: 20px;
 }
 
+
 h1.titulo {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    color: #ffffff;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-shadow: 0px 0px 20px white;
 }
 
 p.frase {
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-shadow: 0px 0px 10px white;
 }
 
 p.autor {
+    font-family: 'Source Code Pro', monospace;
+    color: #ffffff;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-shadow: 0px 0px 10px white;
 }
+
+/* imagem do fundo: https://twitter.com/NASA/status/1661066972291907603/photo/1 */
